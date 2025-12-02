@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TeoFirstAppDuyTruong</string>
+    <!-- Default phone number used when launching app via launcher icon. Change as needed. -->
+    <string name="default_phone_number">0123456789</string>
+</resources>

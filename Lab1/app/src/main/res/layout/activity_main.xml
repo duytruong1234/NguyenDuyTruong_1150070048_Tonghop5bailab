@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MÁY TÍNH"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/etNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số thứ nhất"
+        android:inputType="numberDecimal|numberSigned"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
+    <EditText
+        android:id="@+id/etNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số thứ hai"
+        android:inputType="numberDecimal|numberSigned"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="12dp"/>
+    <EditText
+        android:id="@+id/etResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kết quả"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:focusable="false"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6200EE"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6200EE"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6200EE"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6200EE"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btnModulo"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="%"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:backgroundTint="#6200EE"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Duy Trường - 1150070048"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#444444"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

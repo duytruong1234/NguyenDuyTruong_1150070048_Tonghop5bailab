@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Dashboard Colors -->
+    <color name="background_purple">#5B4B9D</color>
+    <color name="turquoise">#00D4AA</color>
+    <color name="pink">#F34E7A</color>
+    <color name="orange">#FFB84D</color>
+    <color name="dark_purple">#3D3284</color>
+    <color name="blue">#2E7DB5</color>
+    <color name="light_blue">#5DC9E8</color>
+</resources>

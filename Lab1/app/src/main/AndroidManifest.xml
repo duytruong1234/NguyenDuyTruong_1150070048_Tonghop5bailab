@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingUsesFeature">
+    <!-- Declare telephony features as optional so devices without telephony aren't filtered -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony.gsm"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony.cdma"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeoFirstAppDuyTruong">
+
+        <!-- Lab2MenuActivity is the launcher so tapping the app icon opens the Menu UI -->
+        <activity android:name=".DashboardActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Profile activity -->
+        <activity android:name=".M001ActProfile" android:exported="true" />
+
+        <!-- Splash activity -->
+        <activity android:name=".MOO1ActSplash" android:exported="true" />
+
+
+
+    </application>
+
+</manifest>
