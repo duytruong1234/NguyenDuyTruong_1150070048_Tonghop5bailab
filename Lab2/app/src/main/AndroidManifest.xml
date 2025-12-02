@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab2duytruong">
+        <activity
+            android:name=".VocabularyMainActivity"
+            android:exported="true"
+            android:label="Học Từ Vựng">
+        </activity>
+        <activity
+            android:name=".VocabularyActivity"
+            android:exported="false"
+            android:parentActivityName=".VocabularyMainActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Xoay Màn Hình">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AnimationActivity"
+            android:exported="false"
+            android:label="Animation Exercise">
+        </activity>
+        <activity
+            android:name=".RandomIconActivity"
+            android:exported="true"
+            android:label="Bài tập 3: Random Icon">
+        </activity>
+        <activity
+            android:name=".QuickCallActivity"
+            android:exported="false"
+            android:label="Quick Call">
+        </activity>
+    </application>
+
+</manifest>

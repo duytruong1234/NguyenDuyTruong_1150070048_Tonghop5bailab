@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab4duytruong</string>
+    <string name="title_truyen_cuoi">Truyện cười</string>
+    <string name="topic_hocsinh">Học sinh</string>
+    <string name="desc_emoji1">Biểu tượng cười 1</string>
+    <string name="desc_emoji2">Biểu tượng cười 2</string>
+    <string name="desc_emoji3">Biểu tượng cười 3</string>
+    <string name="desc_emoji4">Biểu tượng cười 4</string>
+    <string name="desc_back">Quay lại</string>
+</resources>
